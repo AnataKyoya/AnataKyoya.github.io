@@ -49,10 +49,9 @@
     --feed2--: #ff0022;
 }
 
-html,
 body {
-    display: grid;
     background: linear-gradient(45deg, var(--blue--) 0%, var(--blueDark--) 100%);
+    overflow: hidden;
 }
 
 .content {
